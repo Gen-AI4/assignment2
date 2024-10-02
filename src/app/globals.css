@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.header {
+  background-color: rgb(64, 76, 88);
+  font: 200px;
+  display: flex;
+  font-display: top;
+  height: 60px;
+  align-items: center;
+}
+
 .homeContainer {
   display: flex;
   align-items: center;
@@ -26,4 +35,81 @@
   height: 250px;
   margin-top: 100px;
   margin-right: 50px;
+}
+
+.header-buttons {
+  display: flex;
+  padding-left: 1000px;
+  gap: 20px;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  font-size: medium;
+  text-decoration: solid;
+  color: white;
+}
+
+#about {
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 50px;
+  display: flex;
+}
+
+#styling-about {
+  font-size: 100px;
+  align-items: center;
+  padding-left: 550px;
+  padding-top: 100px;
+  font-family: fantasy;
+}
+
+#my-portfolio {
+  background-color: lightslategrey;
+  height: 600px;
+}
+
+#logo {
+  border: 1000px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo-buttons {
+  background-color: rgb(82, 91, 102);
+  display: flex;
+  width: 400px;
+  height: 400px;
+  align-content: center;
+  border-radius: 20px;
+  justify-content: center;
+  cursor: auto;
+  opacity: 1;
+  box-shadow: 200px;
+  transition: cubic-bezier();
+}
+
+.facebook {
+  height: 100px;
+  width: 100px;
+}
+
+.github {
+  height: 65px;
+  width: 65px;
+  padding-top: 20px;
+}
+
+.gmail {
+  height: 100px;
+  width: 100px;
+}
+
+#container {
+  width: 1350px;
+  height: 1000px;
+  background-color: lightslategrey;
 }
